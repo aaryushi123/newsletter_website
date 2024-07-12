@@ -1,0 +1,84 @@
+
+#top {
+    margin: 60px auto 60px auto;
+}
+#bannerArea h1 {
+    font-family: 'Poppins', sans-serif;
+    padding-left: 100px;
+    padding-top:100px;
+    padding-bottom: 10px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+    text-shadow: 0 0 10px rgba(56, 52, 52, 0.5);
+    
+}
+#bannerArea h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    padding-left: 100px;
+    padding-top: 20px;
+    color:black;
+}
+#quote{
+    padding-left: 420px;
+    padding-top:30px;
+    padding-bottom: 40px;
+    padding-right:10px;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border:black solid;
+    background-color: rgb(139, 129, 129);
+}
+
+
+#content #quote {
+    max-width: 70%;
+}
+#socialMedia {
+    margin: 20px auto;
+    font-family: poppins, sans-serif;
+    text-align: center;
+    padding-top:100px;
+    
+}
+#iconContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 100px;
+    padding-top:5px;
+}
+
+#socialMedia .socialIcon {
+    height: 50px
+}
+
+#socialMedia .socialIcon:hover {
+    cursor: pointer;
+    
+}
+#footer {
+    text-align: center;
+    background-color:#000000;
+    color: white;
+    padding: 30px 10px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+
+#footer #footerLeft {
+    min-width: 40%;
+} 
+
+#footer a {
+    color: white;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    color: #fabd69;
+    text-decoration: underline;
+}
+
